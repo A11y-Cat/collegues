@@ -18,7 +18,7 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/jane.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/jane.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "claire" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Claire!</h2> 
@@ -31,7 +31,7 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/claire.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/claire.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "ali" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Ali!</h2>
@@ -43,7 +43,7 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/Ali.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/Ali.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "laura" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Laura!</h2>
@@ -54,7 +54,7 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/laura.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/laura.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "eileen" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Eileen!</h2>
@@ -66,7 +66,7 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/eileen.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/eileen.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "tess" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Tess!</h2> 
@@ -78,8 +78,8 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/tess.png" alt="profile photo" class="slow-spin" onclick="gif()">`
-        document.getElementById("profile").src = "/images/tess.png";
+        <img id="profile" src="images/tess.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        document.getElementById("profile").src = "images/tess.png";
         return false;
     } else if (nme == "diana" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Diana!</h2>
@@ -90,10 +90,10 @@ function validate() {
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message"></p>
-        <img id="profile" src="/images/diana.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <img id="profile" src="images/diana.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else {
-        document.getElementById("login").innerHTML = `<span><img src="/images/jpGif.gif" id="error">
+        document.getElementById("login").innerHTML = `<span><img src="images/jpGif.gif" id="error">
         <input type="submit" value="Try Again" id="back" class="back" onclick="validate()"></span>`
         return false;
     }
@@ -107,32 +107,32 @@ function dropStar() {
 
 function gif() {
     let photo = document.getElementById("profile");
-    if (photo.getAttribute('src') == "/images/jane.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/bcdojrp-new-staff.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/jane.png") {
+        document.getElementById("login").innerHTML = `<img src="images/bcdojrp-new-staff.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/claire.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/claireGif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/claire.png") {
+        document.getElementById("login").innerHTML = `<img src="images/claireGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/Ali.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/aliGif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/Ali.png") {
+        document.getElementById("login").innerHTML = `<img src="images/aliGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/eileen.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/EileenGif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/eileen.png") {
+        document.getElementById("login").innerHTML = `<img src="images/EileenGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/laura.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/laura2gif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/laura.png") {
+        document.getElementById("login").innerHTML = `<img src="images/laura2gif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/tess.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/TessGif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/tess.png") {
+        document.getElementById("login").innerHTML = `<img src="images/TessGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/diana.png") {
-        document.getElementById("login").innerHTML = `<img src="/images/meetingGif.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/diana.png") {
+        document.getElementById("login").innerHTML = `<img src="images/meetingGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "/images/photo.jfif") {
-        document.getElementById("login").innerHTML = `<img src="/images/leaving.gif" id="gif">`
+    if (photo.getAttribute('src') == "images/photo.jfif") {
+        document.getElementById("login").innerHTML = `<img src="images/leaving.gif" id="gif">`
     }
 }
 
 function funny() {
-    document.getElementById("login").innerHTML = `<img src="/images/cloud.gif" id="gif">`
+    document.getElementById("login").innerHTML = `<img src="images/cloud.gif" id="gif">`
 }
