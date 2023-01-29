@@ -32,7 +32,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 </p>
+        <p id="message">5/5 Kind Colleague</p>
         <img id="profile" src="images/claire.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "Ali" && password == 7543) {
@@ -45,7 +45,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 </p>
+        <p id="message">5/5 Cheerful Colleague</p>
         <img id="profile" src="images/Ali.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "Laura" && password == 6713) {
@@ -58,7 +58,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 Helpful Collegue</p>
+        <p id="message">5/5 Helpful Colleague</p>
         <img id="profile" src="images/laura.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "Eileen" && password == 5609) {
@@ -72,7 +72,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 Fun Collegue</p>
+        <p id="message">5/5 Fun Colleague</p>
         <img id="profile" src="images/eileen.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "Tess" && password == 7091) {
@@ -85,7 +85,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 Friendliest Collegue</p>
+        <p id="message">5/5 Friendliest Colleague</p>
         <img id="profile" src="images/tess.jpg" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else if (nme == "Diana" && password == 5632) {
@@ -98,7 +98,7 @@ function validate() {
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message">5/5 Supportive Collegue</p>
+        <p id="message">5/5 Supportive Colleague</p>
         <img id="profile" src="images/diana.jpg" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else {
