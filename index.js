@@ -131,10 +131,10 @@ function gif() {
     if (photo.getAttribute('src') == "images/laura.png") {
         document.getElementById("login").innerHTML = `<img src="images/laura2gif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "images/tess.png") {
+    if (photo.getAttribute('src') == "images/tess.jpg") {
         document.getElementById("login").innerHTML = `<img src="images/TessGif.gif" id="gif">`
     }
-    if (photo.getAttribute('src') == "images/diana.png") {
+    if (photo.getAttribute('src') == "images/diana.jpg") {
         document.getElementById("login").innerHTML = `<img src="images/meetingGif.gif" id="gif">`
     }
     if (photo.getAttribute('src') == "images/photo.jfif") {
