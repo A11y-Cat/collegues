@@ -7,90 +7,99 @@ if (document.readyState === 'loading') {
 function validate() {
     let nme = document.forms["loginForm"]["username"].value;
     let password = document.forms["loginForm"]["password"].value
-    if (nme == "jane" && password == 1234) {
+    if (nme == "Jane" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Jane!</h2>
-        <p>What can I say, you have been a brilliant manager! </p>
+        <p>What can I say, you have been a brilliant manager!</p>
         <p>I may never had explored the coding world if it wasn't for the oppotunties I had as part of this team.</p>
         <p>Thanks for being so supportive of my new career!</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
+        <p id="message">5/5 Best Manager</p>
         <img id="profile" src="images/jane.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "claire" && password == 1234) {
+    } else if (nme == "Claire" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Claire!</h2> 
         <p>I feel confident leaving the Management students in your hands, you always have their best interests at heart and you don't let a challenge get in the way of that<p> 
         <p>I have really enjoyed working with you and hope to see you soon!</p>
         <p>P.S hope you have enjoyed my tech alternative to the presentation you suggested.. 😉</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
+        <p id="message">5/5 </p>
         <img id="profile" src="images/claire.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "ali" && password == 1234) {
+    } else if (nme == "Ali" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Ali!</h2>
         <p>I don't know how I will cope in my new job without your invaluable tech support!</p>
         <p>You always work above and beyond for your BBs, just make sure you get the opportunities you deserve</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
+        <p id="message">5/5 </p>
         <img id="profile" src="images/Ali.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "laura" && password == 1234) {
+    } else if (nme == "Laura" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Laura!</h2>
-        <p>Thanks for all your support and help</p>
+        <p>Thanks for all your support and help!</p>
+        <p>You have been amazing to work alongside, I hope you get an opporunity to explore your carpentry skills further🔨</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
+        <p id="message">5/5 Helpful Collegue</p>
         <img id="profile" src="images/laura.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "eileen" && password == 1234) {
+    } else if (nme == "Eileen" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Eileen!</h2>
         <p>You always bring such joy and fun to any room with your laugh and expressive story telling!</p>
-        <p></p>
+        <p>You are doing an amazing job, don't let it get too much for you</p>
+        <p>Thanks for everything, I have enjoyed working with you!</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
+        <p id="message">5/5 Fun Collegue</p>
         <img id="profile" src="images/eileen.png" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "tess" && password == 1234) {
+    } else if (nme == "Tess" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Tess!</h2> 
         <p>Thanks for being a brilliant collegue and for supporting and encouraging me!</p>
-        <p>I hope you get the opportunity to travel the world</p>
+        <p>I have really enjoyed working with you, please do keep in touch</p>
+        <p>P.S.I hope you get the opportunity to travel the world🌍</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
-        <img id="profile" src="images/tess.png" alt="profile photo" class="slow-spin" onclick="gif()">`
-        document.getElementById("profile").src = "images/tess.png";
+        <p id="message">5/5 Friendliest Collegue</p>
+        <img id="profile" src="images/tess.jpg" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
-    } else if (nme == "diana" && password == 1234) {
+    } else if (nme == "Diana" && password == 1234) {
         document.getElementById("login").innerHTML = `<h2>Hello Diana!</h2>
         <p>Thanks for believing in me and supporting my career progression!</p>
+        <p>I have enjoyed working with you, I hope the new starts bring some new ideas to the team</p>
+        <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star"></span>
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
-        <p id="message"></p>
-        <img id="profile" src="images/diana.png" alt="profile photo" class="slow-spin" onclick="gif()">`
+        <p id="message">5/5 Supportive Collegue</p>
+        <img id="profile" src="images/diana.jpg" alt="profile photo" class="slow-spin" onclick="gif()">`
         return false;
     } else {
         document.getElementById("login").innerHTML = `<span><img src="images/jpGif.gif" id="error">
@@ -134,5 +143,6 @@ function gif() {
 }
 
 function funny() {
-    document.getElementById("login").innerHTML = `<img src="images/cloud.gif" id="gif">`
+    document.getElementById("login").innerHTML = `<img src="images/cloud.gif" id="gif">
+    <input type="submit" value="Try Again" id="back" class="back" onclick="validate()"></span>`
 }

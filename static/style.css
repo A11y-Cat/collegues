@@ -37,7 +37,6 @@ input[type=password] {
   margin: 10px 5px;
 }
 
-
 .container {
   padding: 25px;
   background-color: lightblue;
@@ -60,8 +59,8 @@ img#profile {
 }
 
 #message {
-  color: #E75480;
-  font-weight: bold;
+  color: pink;
+  font-style: italic;
 }
 
 #gif,
@@ -83,4 +82,8 @@ input#back {
 
 input#back:hover {
   opacity: 0.7;
+}
+
+#title {
+  color: #FF69B4;
 }
