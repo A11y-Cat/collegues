@@ -9,7 +9,7 @@ function validate() {
     let password = document.forms["loginForm"]["password"].value
     if (nme == "Jane" && password == 4986) {
         document.getElementById("login").innerHTML = `<h2>Hello Jane!</h2>
-        <p>What can I say, you have been a brilliant manager!</p>
+        <p>What can I say, you have been a brilliant manager! I have enjoyed working with you.</p>
         <p>I may never had explored the coding world if it wasn't for the oppotunties I had as part of this team.</p>
         <p>Thanks for being so supportive of my new career!</p>
         <p>Please do keep in touch!</p>
@@ -26,7 +26,7 @@ function validate() {
         <p>I feel confident leaving the Management students in your hands, you always have their best interests at heart and you don't let a challenge get in the way of that<p> 
         <p>I have really enjoyed working with you and hope to see you soon!</p>
         <p>P.S hope you have enjoyed my tech alternative to the presentation you suggested.. 😉</p>
-        <p>Please do keep in touch!</p>
+        <p>I'll see you in the Architect soon, the wine is on me! 🥂</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -39,6 +39,7 @@ function validate() {
         document.getElementById("login").innerHTML = `<h2>Hello Ali!</h2>
         <p>I don't know how I will cope in my new job without your invaluable tech support!</p>
         <p>You always work above and beyond for your BBs, just make sure you get the opportunities you deserve</p>
+        <p>Thanks for everything, it's been great working with you</p>
         <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -53,6 +54,7 @@ function validate() {
         <p>Thanks for all your support and help!</p>
         <p>You have been amazing to work alongside, I hope you get an opporunity to explore your carpentry skills further🔨</p>
         <p>Please do keep in touch!</p>
+        <p>P.S I hope I am not dead to you, when I am no longer in the office!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -91,6 +93,7 @@ function validate() {
     } else if (nme == "Diana" && password == 5632) {
         document.getElementById("login").innerHTML = `<h2>Hello Diana!</h2>
         <p>Thanks for believing in me and supporting my career progression!</p>
+        <p>I may never had explored the coding world if it wasn't for the oppotunties I had as part of this team.</p>
         <p>I have enjoyed working with you, I hope the new starts bring some new ideas to the team</p>
         <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
@@ -100,6 +103,27 @@ function validate() {
         <span class="fa fa-star" id="star" onclick="dropStar()"></span>
         <p id="message">5/5 Supportive Colleague</p>
         <img id="profile" src="images/diana.jpg" alt="profile photo" class="slow-spin" onclick="gif()">`
+        return false;
+    }
+    else if (nme == "Catherine" && password == 7856) {
+        document.getElementById("login").innerHTML = `<h2>Hello Catherine!</h2>
+        <p>Thanks for being a fabulous colleague and always being so quick to help!</p>
+        <p>I have enjoyed working with you and will see you soon at book club</p>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star" id="star" onclick="dropStar()"></span>
+        <p id="message">5/5 Friendly Colleague</p>
+        <img id="profile" src="images/Catherine.jfif" alt="profile photo" class="slow-spin" onclick="gif()">`
+        return false;
+    }
+    else if (nme == "Henrietta" && password == 3561) {
+        document.getElementById("login").innerHTML = `<h2>Hello Henrietta!</h2>
+        <p>Congrats on getting the permanent position!</p>
+        <p>Sorry I haven't had a chance to work with you much, but you have taken to the role brillliantly!</p>
+        <p>I am sure you will smash it!</p>
+        <img src="images/HenriettaGif.gif" id="gif">`
         return false;
     } else {
         document.getElementById("login").innerHTML = `<span><img src="images/jpGif.gif" id="error">
@@ -139,6 +163,9 @@ function gif() {
     }
     if (photo.getAttribute('src') == "images/photo.jfif") {
         document.getElementById("login").innerHTML = `<img src="images/leaving.gif" id="gif">`
+    }
+    if (photo.getAttribute('src') == "images/Catherine.jfif") {
+        document.getElementById("login").innerHTML = `<img src="images/catherineGif.gif" id="gif">`
     }
 }
 
