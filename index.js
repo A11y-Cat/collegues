@@ -10,7 +10,7 @@ function validate() {
     if (nme == "Jane" && password == 4986) {
         document.getElementById("login").innerHTML = `<h2>Hello Jane!</h2>
         <p>What can I say, you have been a brilliant manager! I have enjoyed working with you.</p>
-        <p>I may never had explored the coding world if it wasn't for the oppotunties I had as part of this team.</p>
+        <p>I may never had explored the coding world if it wasn't for the opportunties I had as part of this team.</p>
         <p>Thanks for being so supportive of my new career!</p>
         <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
@@ -23,10 +23,10 @@ function validate() {
         return false;
     } else if (nme == "Claire" && password == 5643) {
         document.getElementById("login").innerHTML = `<h2>Hello Claire!</h2> 
-        <p>I feel confident leaving the Management students in your hands, you always have their best interests at heart and you don't let a challenge get in the way of that<p> 
-        <p>I have really enjoyed working with you and hope to see you soon!</p>
+        <p>I feel confident leaving the Management students in your hands,you always have their best interests at heart</p>
+        <p> and you don't let a challenge get in the way of that</p> 
+        <p>I have really enjoyed working with you. I'll see you in the Architect soon, the wine is on me! 🥂</p>
         <p>P.S hope you have enjoyed my tech alternative to the presentation you suggested.. 😉</p>
-        <p>I'll see you in the Architect soon, the wine is on me! 🥂</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -51,10 +51,11 @@ function validate() {
         return false;
     } else if (nme == "Laura" && password == 6713) {
         document.getElementById("login").innerHTML = `<h2>Hello Laura!</h2>
-        <p>Thanks for all your support and help!</p>
-        <p>You have been amazing to work alongside, I hope you get an opporunity to explore your carpentry skills further🔨</p>
+        <p>Thanks for all your support and help! You have been amazing to work alongside</p>
+        <p>I hope you get an opporunity to explore your carpentry skills further🔨</p>
+        <p>P.S I hope you don't forget I exist, when I am no longer in the office</p>
+        <p>Although I am sure you will be cursing me for the Flows.. </p>
         <p>Please do keep in touch!</p>
-        <p>P.S I hope I am not dead to you, when I am no longer in the office!</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -79,8 +80,9 @@ function validate() {
         return false;
     } else if (nme == "Tess" && password == 7091) {
         document.getElementById("login").innerHTML = `<h2>Hello Tess!</h2> 
-        <p>Thanks for being a brilliant collegue and for supporting and encouraging me!</p>
-        <p>I have really enjoyed working with you, please do keep in touch</p>
+        <p>Thanks for being a brilliant colleague and for supporting and encouraging me!</p>
+        <p>I have really enjoyed working with you, I am confident leaving the Management Suite in your hands!</p>
+        <p>Please do keep in touch</p>
         <p>P.S.I hope you get the opportunity to travel the world🌍</p>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>
@@ -93,7 +95,7 @@ function validate() {
     } else if (nme == "Diana" && password == 5632) {
         document.getElementById("login").innerHTML = `<h2>Hello Diana!</h2>
         <p>Thanks for believing in me and supporting my career progression!</p>
-        <p>I may never had explored the coding world if it wasn't for the oppotunties I had as part of this team.</p>
+        <p>I may never had explored the coding world if it wasn't for the opportunties I had as part of this team.</p>
         <p>I have enjoyed working with you, I hope the new starts bring some new ideas to the team</p>
         <p>Please do keep in touch!</p>
         <span class="fa fa-star checked"></span>
@@ -121,7 +123,7 @@ function validate() {
     else if (nme == "Henrietta" && password == 3561) {
         document.getElementById("login").innerHTML = `<h2>Hello Henrietta!</h2>
         <p>Congrats on getting the permanent position!</p>
-        <p>Sorry I haven't had a chance to work with you much, but you have taken to the role brillliantly!</p>
+        <p>I haven't had a chance to work with you much, but you have taken to the role brillliantly</p>
         <p>I am sure you will smash it!</p>
         <img src="images/HenriettaGif.gif" id="gif">`
         return false;
